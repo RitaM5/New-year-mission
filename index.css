@@ -19,11 +19,11 @@
     right: 0;
     padding: 0 200px;
 }
-.header-title{
+.title{
     font-weight:900;
     font-size: 30px;
 }
-.header-desc{
+.desc{
     padding-top: 20px;
     font-size: 14px;
 }
@@ -46,4 +46,10 @@
     list-style: none;
     font-size: 14px;
     padding-top: 10px;
+}
+/* plan section */
+.plan-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
 }
