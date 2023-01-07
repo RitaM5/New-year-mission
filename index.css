@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 body{
     background-color: rgb(230, 243, 247);
@@ -65,15 +65,15 @@ body{
 }
 .plans-content{
     display: flex;
-   
     gap: 65px;
     padding-top: 60px;
 }
 .plan-sub-title{
     margin: 12px 0;
+    font-size: small;
 }
 .plan-desc{
-    font-size: 18px;
+    font-size: 14px;
     color: #757575;
 }
 .plan-blog{
@@ -90,7 +90,7 @@ article{
     margin-top: 100px;
 }
 .contact-sec{
-    background-image:linear-gradient(tomato, yellow, green);
+    background-image:linear-gradient(to right,tomato, yellow, green);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
