@@ -5,9 +5,13 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: rgb(230, 243, 247);
+}
 .header{
-    background-image: url('images/banner/banner1.png');
+    background-image: url('./images/banner/banner1.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     position: relative;
 }
@@ -40,16 +44,122 @@
     display: flex;
     gap: 65px;
     align-items: center;
-    margin: 200px 200px;
+    margin: 150px 200px;
 }
 .failur-blog ul li{
     list-style: none;
     font-size: 14px;
     padding-top: 10px;
 }
+.done-icon{
+    color: blue;
+}
 /* plan section */
 .plan-title{
     text-align: center;
     font-weight: bolder;
     font-size: 35px;
+}
+.plans-sec{
+    margin: 0 200px;
+}
+.plans-content{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding-top: 60px;
+}
+.plan-sub-title{
+    margin: 12px 0;
+}
+.plan-desc{
+    font-size: 18px;
+    color: #757575;
+}
+.plan-blog{
+    text-align: center;
+}
+/* contact section */
+article{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+}
+.contact-sec{
+    background-image:linear-gradient(tomato, yellow, green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    height:250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.contact-desc{
+    padding: 60px 40px;
+}
+.contact-title{
+    font-weight: 900;
+    font-size: 35px;
+}
+.btn-secondary{
+    background-color:rgb(247, 244, 244);
+    border: none;
+    padding: 15px 30px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+/* another section */
+.another-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 200px;
+}
+.another-blog-2 img{
+   width: 600px;
+}
+/* footer section */
+footer{
+    background: black;
+}
+.footer-section{
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    margin: 0 200px;
+    padding: 60px 0;
+}
+.footer-desc{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.footer-blog-1{
+    width: 400px;
+}
+.footer-icon{
+    display: flex;
+    gap:10px;
+}
+.footer-icon{
+    text-decoration: none;
+}
+.footer-email{
+    padding: 10px;
+    background: none;
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.btn-white{
+    margin-top: 10px;
+    padding: 12px 25px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    color:tomato;
 }
