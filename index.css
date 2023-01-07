@@ -65,8 +65,8 @@ body{
 }
 .plans-content{
     display: flex;
-    justify-content: center;
-    gap: 55px;
+   
+    gap: 65px;
     padding-top: 60px;
 }
 .plan-sub-title{
