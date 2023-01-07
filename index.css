@@ -25,7 +25,10 @@ body{
 }
 .title{
     font-weight:900;
-    font-size: 30px;
+    font-size: 35px;
+}
+.mark-title{
+    color: orange;
 }
 .desc{
     padding-top: 20px;
@@ -51,6 +54,9 @@ body{
     font-size: 14px;
     padding-top: 10px;
 }
+.mark-title-2{
+    color: tomato;
+}
 .done-icon{
     color: blue;
 }
@@ -58,7 +64,10 @@ body{
 .plan-title{
     text-align: center;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 40px;
+}
+.mark-title-3{
+    color: yellowgreen;
 }
 .plans-sec{
     margin: 0 200px;
@@ -114,6 +123,9 @@ article{
     margin-top: 10px;
 }
 /* another section */
+.mark-title-4{
+    color: green;
+}
 .another-sec{
     display: flex;
     justify-content: space-between;
@@ -126,6 +138,9 @@ article{
 /* footer section */
 footer{
     background: black;
+}
+.footer-title{
+    color: rgba(255, 0, 0, 0.849);
 }
 .footer-section{
     display: flex;
